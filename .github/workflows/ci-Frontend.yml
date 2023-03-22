@@ -10,8 +10,8 @@ env:
   DOCKER_FILE_PATH: ./AppFrontend/Dockerfile.publish
   DOCKER_BUILD_CONTEXT: AppFrontend
   DOCKER_PUBLISH_CONTEXT: AppFrontend
-  CONTAINER_NAME: universityapplication
-  REPOSITORY_NAME: universityapplication
+  CONTAINER_NAME: universityapplicationfrontend
+  REPOSITORY_NAME: universityapplicationfrontend
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
