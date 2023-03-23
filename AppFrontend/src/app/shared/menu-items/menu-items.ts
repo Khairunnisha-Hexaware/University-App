@@ -11,6 +11,7 @@ const MENUITEMS = [
   { state: 'home', name: 'Entities', type: 'link', icon: 'web' },
     { state: 'list-electricalandElectronicsEngineering', name: 'ElectricalandElectronicsEngineering', type: 'link', icon: 'view_list' },
     { state: 'list-informationTechnology', name: 'InformationTechnology', type: 'link', icon: 'view_list' },
+    { state: 'list-aerospaceEngineering', name: 'AerospaceEngineering', type: 'link', icon: 'view_list' },
 ];
 
 @Injectable()
