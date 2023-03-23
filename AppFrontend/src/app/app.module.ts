@@ -23,6 +23,9 @@ import { ListElectricalandElectronicsEngineeringComponent } from "./electricalan
 import { AddInformationTechnologyComponent } from "./informationTechnology/add-informationTechnology/add-informationTechnology.component";
 import { EditInformationTechnologyComponent } from "./informationTechnology/edit-informationTechnology/edit-informationTechnology.component";
 import { ListInformationTechnologyComponent } from "./informationTechnology/list-informationTechnology/list-informationTechnology.component";
+import { AddAerospaceEngineeringComponent } from "./aerospaceEngineering/add-aerospaceEngineering/add-aerospaceEngineering.component";
+import { EditAerospaceEngineeringComponent } from "./aerospaceEngineering/edit-aerospaceEngineering/edit-aerospaceEngineering.component";
+import { ListAerospaceEngineeringComponent } from "./aerospaceEngineering/list-aerospaceEngineering/list-aerospaceEngineering.component";
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { ListInformationTechnologyComponent } from "./informationTechnology/list
         ListElectricalandElectronicsEngineeringComponent,
         AddInformationTechnologyComponent,
         EditInformationTechnologyComponent,
-        ListInformationTechnologyComponent
+        ListInformationTechnologyComponent,
+        AddAerospaceEngineeringComponent,
+        EditAerospaceEngineeringComponent,
+        ListAerospaceEngineeringComponent
     ],
   imports: [
     BrowserModule,

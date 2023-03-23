@@ -7,6 +7,9 @@ import { ListElectricalandElectronicsEngineeringComponent } from "./electricalan
 import { AddInformationTechnologyComponent } from "./informationTechnology/add-informationTechnology/add-informationTechnology.component";
 import { EditInformationTechnologyComponent } from "./informationTechnology/edit-informationTechnology/edit-informationTechnology.component";
 import { ListInformationTechnologyComponent } from "./informationTechnology/list-informationTechnology/list-informationTechnology.component";
+import { AddAerospaceEngineeringComponent } from "./aerospaceEngineering/add-aerospaceEngineering/add-aerospaceEngineering.component";
+import { EditAerospaceEngineeringComponent } from "./aerospaceEngineering/edit-aerospaceEngineering/edit-aerospaceEngineering.component";
+import { ListAerospaceEngineeringComponent } from "./aerospaceEngineering/list-aerospaceEngineering/list-aerospaceEngineering.component";
 
 export const AppRoutes: Routes = [
   {
@@ -28,6 +31,9 @@ export const AppRoutes: Routes = [
         { path: 'add-informationTechnology', component: AddInformationTechnologyComponent },
         { path: 'edit-informationTechnology/:id', component: EditInformationTechnologyComponent },
         { path: 'list-informationTechnology', component: ListInformationTechnologyComponent },
+        { path: 'add-aerospaceEngineering', component: AddAerospaceEngineeringComponent },
+        { path: 'edit-aerospaceEngineering/:id', component: EditAerospaceEngineeringComponent },
+        { path: 'list-aerospaceEngineering', component: ListAerospaceEngineeringComponent },
     ]
   }
 ];
