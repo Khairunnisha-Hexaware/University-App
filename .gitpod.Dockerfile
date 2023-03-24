@@ -8,4 +8,4 @@ RUN rm packages-microsoft-prod.deb
 
 RUN sudo apt update
 
-RUN sudo apt --yes install dotnet-sdk-7.0
+RUN sudo apt --yes install dotnet-sdk-3.1
